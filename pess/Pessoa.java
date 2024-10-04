@@ -1,5 +1,3 @@
-
-
 public abstract class Pessoa {
     String nome;
     Data nascimento;
@@ -9,5 +7,5 @@ public abstract class Pessoa {
         this.nascimento = nascimento;
     }
 
-    public abstract void imprimeDados();
+    public abstract PessoaInfo getInfo();
 }
