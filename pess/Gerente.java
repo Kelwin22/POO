@@ -1,4 +1,3 @@
-
 public class Gerente extends Funcionario {
     String area;
 
@@ -13,7 +12,7 @@ public class Gerente extends Funcionario {
     }
 
     @Override
-    public void imprimeDados() {
-        System.out.println("Gerente: " + nome + ", Área: " + area + ", Salário: " + salario + ", Imposto: " + calculaImposto() + ", Nascimento: " + nascimento);
+    public PessoaInfo getInfo() {
+        return new PessoaInfo(nome, "Gerente", "Área: " + area + ", Salário: " + salario + ", Imposto: " + calculaImposto() + ", Nascimento: " + nascimento);
     }
 }
