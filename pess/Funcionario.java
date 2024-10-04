@@ -1,5 +1,3 @@
-
-
 public class Funcionario extends Pessoa {
     float salario;
 
@@ -13,7 +11,7 @@ public class Funcionario extends Pessoa {
     }
 
     @Override
-    public void imprimeDados() {
-        System.out.println("Funcionário: " + nome + ", Salário: " + salario + ", Imposto: " + calculaImposto() + ", Nascimento: " + nascimento);
+    public PessoaInfo getInfo() {
+        return new PessoaInfo(nome, "Funcionário", "Salário: " + salario + ", Imposto: " + calculaImposto() + ", Nascimento: " + nascimento);
     }
 }
