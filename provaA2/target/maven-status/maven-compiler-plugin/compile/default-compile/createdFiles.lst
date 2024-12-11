@@ -1,0 +1,6 @@
+com\meuapp\Conexao.class
+com\meuapp\EquipamentoDAO.class
+com\meuapp\Equipamento.class
+com\meuapp\Main.class
+com\meuapp\Usuario.class
+com\meuapp\UsuarioDAO.class
